@@ -1,0 +1,38 @@
+.titulo {
+    color: rgb(224, 28, 28);
+    text-align: center;
+}
+.gestion {
+    color: blue;
+}
+body {
+    background-color: #add8e6; /* Celeste */
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    background-color: #4cbd84;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #da1212; /* Rojo para los encabezados */
+    color: white;
+}
+
+th.sistemas {
+    color: rgb(255, 255, 255); /* Color de texto rojo para el encabezado de sistemas */
+    background-color: #da1212;
+}
+
+th.comunicacion {
+    background-color: blue;
+    color: rgb(255, 255, 255); /* Color de texto azul para el encabezado de comunicación */
+}
